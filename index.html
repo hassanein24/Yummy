@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" >
+
+    <body>
+        
+        <div class="loadingScreen">
+            <div class="loader"></div>
+          </div>
+          <nav class="sideBar d-flex">
+            <div class="innerBar d-flex flex-column justify-content-between p-4">
+              <ul class="navLinks ps-0 overflow-hidden">
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Area</a></li>
+                <li><a href="#">Ingredients</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+              <div class="info">
+                <div class="social-icons">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-solid fa-globe"></i>
+                </div>
+                <div class="copyrights">
+                  <p>Copyright © 2023 All Rights Reserved.</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="outerBar d-flex flex-column justify-content-between align-items-center bg-white text-black py-4 px-2"
+            >
+              <div class="logo">
+                <img src="logo.png" class="w-100" alt="logo" />
+              </div>
+              <div class="openCloseBtn">
+                <i class="fa-solid fa-bars fa-2x"></i>
+              </div>
+              <div class="icons d-flex flex-column gap-2">
+                <i class="fa-solid fa-globe"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+              </div>
+            </div>
+          </nav>
+      
+          <main>
+            <section class="data p-3">
+              <div class="container w-75">
+                <div class="row g-4 mb-5" id="searchBox"></div>
+                <div class="row g-4" id="mealsData"></div>
+                <div class="contact" id="contact"></div>
+              </div>
+            </section>
+          </main>
+          <script src="jquery-3.7.0.min.js"></script>
+          <script src="main.js"></script>
+    </body>
+</html>
